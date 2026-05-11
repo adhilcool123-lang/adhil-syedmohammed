@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Adhil — Senior Site Reliability Engineer</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Adhil — Senior Site Reliability Engineer focused on reliability, observability, and automation." />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+
+<body>
+  <header class="hero">
+    <nav class="nav">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <div id="home" class="hero-content">
+      <h1>Adhil — Senior Site Reliability Engineer</h1>
+      <p>I design, build, and operate reliable systems at scale, with a focus on observability, automation, and pragmatic DevOps.</p>
+      <p>Based in the U.S. with 13+ years of experience in SRE, DevOps, and large-scale production systems.</p>
+
+      <div class="cta-buttons">
+        <a href="#experience" class="btn primary">View my experience</a>
+        <a href="#contact" class="btn secondary">Get in touch</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section id="about">
+      <h2>About me</h2>
+      <p>I’m Adhil, a Senior Site Reliability Engineer who enjoys making complex systems feel simple, predictable, and boring in production. Over the past decade, I’ve worked across SRE, DevOps, and platform engineering, helping teams modernize infrastructure, improve reliability, and build better feedback loops between code and operations.</p>
+
+      <h3>Professional philosophy</h3>
+      <ul>
+        <li>Reliability as a product — uptime, latency, and error budgets shape user experience.</li>
+        <li>Automation over heroics — if something hurts, automate it; if it breaks, ensure it only breaks once.</li>
+        <li>Observability first — good dashboards and alerts are as important as good code.</li>
+        <li>Collaboration over silos — the best systems come from cross‑functional teamwork.</li>
+      </ul>
+
+      <h3>What I’m good at</h3>
+      <ul>
+        <li>Designing resilient architectures and scaling production systems.</li>
+        <li>Kubernetes and cloud-native tooling.</li>
+        <li>Incident response, postmortems, and on-call improvement.</li>
+        <li>Developer experience and CI/CD optimization.</li>
+      </ul>
+    </section>
+
+    <section id="experience">
+      <h2>Experience</h2>
+
+      <h3>Senior Site Reliability Engineer</h3>
+      <ul>
+        <li>Defined and implemented SLOs and error budgets for critical services.</li>
+        <li>Designed dashboards and alerting strategies that prioritize signal over noise.</li>
+        <li>Led incident response for production outages and drove blameless postmortems.</li>
+        <li>Automated repetitive operational tasks and improved CI/CD pipelines.</li>
+      </ul>
+
+      <h3>Payments, Fraud & Loss Prevention</h3>
+      <ul>
+        <li>Supported high-availability payment systems where latency and uptime directly impacted transaction success.</li>
+        <li>Collaborated with fraud operations and partners to keep detection systems reliable and performant.</li>
+        <li>Aligned reliability work with business outcomes: fewer failed transactions and reduced fraud losses.</li>
+      </ul>
+    </section>
+
+    <section id="projects">
+      <h2>Selected Projects</h2>
+
+      <h3>Kubernetes Platform Modernization</h3>
+      <ul>
+        <li>Designed deployment patterns and resource configurations for Kubernetes workloads.</li>
+        <li>Implemented observability for both the cluster and applications.</li>
+        <li>Defined best practices for probes, autoscaling, and rollout strategies.</li>
+      </ul>
+
+      <h3>Incident Response & On‑Call Improvement</h3>
+      <ul>
+        <li>Audited alerts to remove noise and focus on high-signal issues.</li>
+        <li>Improved routing and runbooks for faster, more consistent incident response.</li>
+      </ul>
+
+      <h3>CI/CD Pipeline Optimization</h3>
+      <ul>
+        <li>Improved build and test stages to catch issues earlier.</li>
+        <li>Introduced safer deployment strategies such as canary or blue‑green.</li>
+        <li>Integrated automated checks tied to production health.</li>
+      </ul>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <ul>
+        <li><strong>Email:</strong> yourname@adhil.com</li>
+        <li><strong>LinkedIn:</strong> linkedin.com/in/your-profile</li>
+        <li><strong>Location:</strong> Portland, OR — open to remote roles</li>
+      </ul>
+      <p>I’m always open to conversations about SRE, DevOps, platform engineering, or new opportunities.</p>
+    </section>
+  </main>
+
+  <footer>
+    © <span id="year"></span> Adhil. All rights reserved.
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
